@@ -1,0 +1,167 @@
+.container__menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+.menu__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.buttons__container {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+.buttons__container button {
+  font-weight: 600;
+  border: solid 2px black;
+  color: white;
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.08rem;
+  background-color: rgb(0, 195, 255);
+  border-radius: 0.35rem;
+  position: relative;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.buttons__container button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  z-index: -1;
+  border-radius: 0.35rem;
+  border: solid 2px black;
+  transition: all 0.3s ease-in-out;
+}
+.buttons__container button::after {
+  border: 0;
+  box-shadow: 0px 0px 0px 2px rgb(0, 0, 0);
+  top: 0.5rem;
+  left: 0.5rem;
+}
+.buttons__container button:hover {
+  background-color: rgb(9, 110, 141);
+}
+.rules__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rules__blackjack {
+  display: grid;
+  font-weight: 600;
+  color: white;
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  background-color: rgba(20, 20, 20, 0.637);
+  border-radius: 0.35rem;
+  position: relative;
+  width: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.rules__blackjack::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.685);
+  z-index: -1;
+  border-radius: 0.35rem;
+  border: solid 2px black;
+}
+.rules__blackjack::after {
+  border: 0;
+  box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
+  top: -0.5rem;
+  left: -0.5rem;
+  width: calc(100% + 0.5rem * 2);
+  height: calc(100% + 0.5rem * 2);
+}
+.icon__x {
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.rules__blackjack span {
+  text-align: justify;
+}
+.rules__blackjack span h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: rgb(0, 127, 150);
+  text-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+.creator__text {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  font-weight: 600;
+  color: white;
+  outline: 0;
+  padding: 1rem 4rem;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  background-color: rgba(20, 20, 20, 0.637);
+  border-radius: 0.35rem;
+  position: relative;
+  width: 50%;
+  transition: all 0.2s ease-in-out;
+}
+.creator__text::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.527);
+  z-index: -1;
+  border-radius: 0.35rem;
+  border: solid 2px black;
+  transition: all 0.3s ease-in-out;
+}
+.creator__text::after {
+  border: 0;
+  box-shadow: 0px 0px 0px 2px rgb(255, 255, 255);
+  top: -0.5rem;
+  left: -0.5rem;
+  width: calc(100% + 0.5rem * 2);
+  height: calc(100% + 0.5rem * 2);
+}
+.creator__text a {
+  color: rgb(0, 255, 255);
+  text-decoration: none;
+}
+@media screen and (max-width: 750px) {
+  .buttons__container button {
+    font-size: 0.7rem;
+  }
+  .rules__blackjack {
+    font-size: 0.7rem;
+  }
+  .rules__blackjack span h1 {
+    font-size: 0.7rem;
+  }
+  .creator__text {
+    font-size: 0.5rem;
+  }
+}
