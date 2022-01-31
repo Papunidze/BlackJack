@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/BlackJack/static/css/main.340a9297.css",
+    "main.js": "/BlackJack/static/js/main.4380d6bc.js",
+    "static/js/845.c4f29cae.chunk.js": "/BlackJack/static/js/845.c4f29cae.chunk.js",
+    "static/media/hand.png": "/BlackJack/static/media/hand.cb68c6b5bcd91e3b032f.png",
+    "static/media/blackjack_table_layout.png": "/BlackJack/static/media/blackjack_table_layout.03aa8caaf406aa03d7e5.png",
+    "static/media/25.png": "/BlackJack/static/media/25.6eb4c0885f871657cc9c.png",
+    "static/media/100.png": "/BlackJack/static/media/100.9a3990f5d8c11de18997.png",
+    "static/media/500.png": "/BlackJack/static/media/500.a3d2bee19e4ebcae2a8e.png",
+    "static/media/5.png": "/BlackJack/static/media/5.332d9179f003a18db23f.png",
+    "static/media/50.png": "/BlackJack/static/media/50.b004c1ccada34cb42163.png",
+    "static/media/1k.png": "/BlackJack/static/media/1k.fff857bd94f234824c41.png",
+    "static/media/selectHand.png": "/BlackJack/static/media/selectHand.c3e47e124ed85aa009a9.png",
+    "static/media/reversemode.gif": "/BlackJack/static/media/reversemode.377804e13b3424a232ca.gif",
+    "static/media/cardPlace1.ogg": "/BlackJack/static/media/cardPlace1.2ac62cbe90aabd336e2c.ogg",
+    "static/media/cardSlide1.ogg": "/BlackJack/static/media/cardSlide1.e3698b1e723dd3b2f3fe.ogg",
+    "static/media/cardPlace2.ogg": "/BlackJack/static/media/cardPlace2.a718b9df7ecd29cfb4e1.ogg",
+    "static/media/chipsCollide1.ogg": "/BlackJack/static/media/chipsCollide1.bf10f8af284c42b48be2.ogg",
+    "static/media/chipsCollide2.ogg": "/BlackJack/static/media/chipsCollide2.31421765d2c457b947d0.ogg",
+    "index.html": "/BlackJack/index.html",
+    "main.340a9297.css.map": "/BlackJack/static/css/main.340a9297.css.map",
+    "main.4380d6bc.js.map": "/BlackJack/static/js/main.4380d6bc.js.map",
+    "845.c4f29cae.chunk.js.map": "/BlackJack/static/js/845.c4f29cae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.340a9297.css",
+    "static/js/main.4380d6bc.js"
+  ]
+}
